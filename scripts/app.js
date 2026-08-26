@@ -18,9 +18,11 @@ function calcIdade(ano = 2026){
 }
 
 calcIdade();
+/* var vaza a variavel dentro do escopo da mesma funçao 
 alert (`Pode beber: ${podebeber}`);
+*/
 /*
 alert(`Fora da função : idade ${idade}`);
 erro pois a variavellet não existe fora do escopo dela
 */
-alert(`Fora da função : chamado calcidade ${calcIdade(2027)}`);
+alert(`Fora da função : chamado calcIdade ${calcIdade(2027)}`);
