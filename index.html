@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 00: Apresentação</title>
+    <title>Aula 09: Agenda de contatos</title>
 </head>
 <body>
-    <h1>Olá, meu nome é duda!</h1>
-    <h2>Esta é minha primeira aula de design web.</h2>
-    <h3>Data:14/08/2026</h3>
+    <h1>Meus Amigos</h1>
+    <hr/>
+    <form action="">
+        <table>
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" required name="nome" minlength="3"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Data de nascinento</td>
+                <td>
+                    <input type="date" required name="nasc"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Whatsapp</td>
+                <td>
+                    <input type="tel" name="Whatsapp"/>
+                </td>
+            </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="adicionar">
+                <input type="reset">
+            </td>
+        </tr>
+        </table>
+    </form>
+    <script src="./js/app2.js" defer></script>
 </body>
 </html>
